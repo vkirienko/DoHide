@@ -1,0 +1,57 @@
+
+                           DoHide LICENSE
+
+
+ 1. DoHide is a shareware program product, as described in license
+    agreement.
+
+ 2. The author - Vladimir Kirienko, exclusively owns all copyrights to
+    DoHide. Anyone may use this software during a test period of 30 days.
+    Following this test period of 30 days or less, if you wish to continue
+    to use DoHide, you MUST register.
+
+ 3. Once registered, the user is granted a non-exclusive license to use
+    DoHide on one computer, for any legal purpose, at a time. The registered
+    DoHide software may not be rented or leased, but may be permanently
+    transferred, if the person, receiving it, agrees to terms of this license.
+    If the software is an update, the transfer must include the update and
+    all previous versions.
+
+ 4. The DoHide unregistered version may be freely distributed provided
+    that distribution package is not modified. No person or company may
+    charge a fee for the distribution DoHide without written permission
+    from the copyright holder.
+
+ 5. To register you must complete the registration form and send it,
+    with registration fee, to the author.
+
+ 6. DoHide IS DISTRIBUTED "AS IS". NO WARRANTY OF ANY KIND IS EXPRESSED
+    OR IMPLIED. YOU USE AT YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE
+    FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE
+    USING OR MISUSING THIS SOFTWARE.
+
+ 7. You may not use, copy, emulate, clone, rent, lease, sell, modify,
+    decompose, disassemble, otherwise reverse engineer, or transfer the
+    licensed program, or any subset of the licensed program, except as
+    provided for in this agreement.  Any such unauthorized use shall result
+    in immediate and automatic termination of this license and may result
+    in criminal and/or civil prosecution.
+
+    Vladimir Kirienko reserves all rights not expressly granted here.
+
+ 8. Installing and using DoHide means, that you accept these terms and
+    conditions in this license.
+
+ 9. If you do not agree with the terms of this license, you must remove
+    DoHide files from your storage devices and stop to use this product.
+
+
+    Thank you for using DoHide.
+
+                                            Vladimir Kirienko
+
+
+(C) Copyright 1996-2000 KVA Software. All rights reserved.
+http://www.uran.net/kva
+kirienko@geocities.com
+kva@uran.net

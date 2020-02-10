@@ -1,0 +1,7 @@
+LIBRARY DoHideH
+
+EXETYPE WINDOWS
+
+EXPORTS
+    HookProc		    @2
+    

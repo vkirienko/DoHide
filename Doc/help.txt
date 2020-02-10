@@ -1,0 +1,6 @@
+1. Click Start button 
+2. Choose Run menu item
+3. Type cmd.exe and click OK
+4. In console window type 'cd program files\dohide', then Enter
+5. Type 'DoHide.exe /O', then Enter
+6. Uncheck 'Don't show DoHide's icon in tray' and click OK

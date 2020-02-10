@@ -1,0 +1,16 @@
+:Base DoHide.hlp
+2 What is the DoHide ?=what_is
+1 Overview
+2 Requirements=Requirements
+2 Installing/Uninstalling=inst
+2 Using DoHide=using
+2 Command line options=cmdline
+2 Add to startup=ID_START
+2 Remove from startup=ID_REMOVE
+2 History=history
+1 Registration
+2 License agreement=ID_LICENSE
+2 Registration=ID_REGISTER
+1 About KVA Software
+2 About KVA Software=about
+2 Thanks=thank

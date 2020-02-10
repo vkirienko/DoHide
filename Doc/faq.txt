@@ -1,0 +1,24 @@
+1. поставленная в автозагрузку DoHide стабильно "весит" компьютер. 
+Несколько лучше компьютер повел себя, когда DoHide прописал в Load 
+файла Win.ini, но при перезагрузках периодически все равно весит. 
+
+2. Случайно поставил галочку убрать значок программы из трея, и
+  теперь не знаю как вернуть все обратно. Переустановка с полным
+  удалением ничего не дала.
+(I have one problem I told it to not be in the tray and 
+now I cant get it back up)
+
+3. However after puting
+the name and registation number in and the key file in
+the DoHide directory it did not word. It still said at
+the welcome screen. Please register this program, if
+you still want to use it after 30 day trial period. I
+Even tried restarting my computer but this still did
+not word. I did check the case and retyped the
+registration number many times. I hope that you can
+Help.
+
+4. некоторые ДОС-задачи, будучи скрытыми, виснут -> хотелось бы (если это не
+будет исправлено), чтобы можно было укказывать для конкретных программ опцию
+типа "никогда не скрывать"
+  

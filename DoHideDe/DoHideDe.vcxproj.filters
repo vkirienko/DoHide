@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6aaee49a-06f6-4b64-8fca-fbd0b39c3d2a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a5bdf527-3523-48d1-b65c-7fbab0380e8c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a2860fe2-b2c0-43fe-be54-9565c4ef9c95}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DoHideDe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DoHideDe.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\dohide.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hotkey.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lamp.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lock.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\options.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\program.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\protect.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\register.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,571 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\\resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_HIDE_BY_RUN DIALOG  0, 0, 302, 266
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Алгоритм ""Спрятать при запуске"""
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT20,90,14,110,12,ES_AUTOHSCROLL
+    CONTROL         "&Заголовок окна",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,10,16,70,10
+    EDITTEXT        IDC_EDIT24,90,28,110,12,ES_AUTOHSCROLL
+    CONTROL         "&Класс окна",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,10,30,55,10
+    EDITTEXT        IDC_EDIT21,90,43,65,12,ES_AUTOHSCROLL
+    CONTROL         "&Имя EXE-файла",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,10,45,70,10
+    PUSHBUTTON      "&Обзор...",IDC_BUTTON20,160,42,40,14
+    EDITTEXT        IDC_EDIT3,15,78,65,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "О&бзор",IDC_BUTTON1,85,78,34,14
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,125,81,40,10
+    CONTROL         "... &если окно свернуто (M)",IDC_CHECK22,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,116,110,10
+    CONTROL         "... &всегда, если окно свернуто (A)",IDC_CHECK23,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,126,125,10
+    CONTROL         "... И е&сли окно свернуто (N)",IDC_CHECK28,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,136,110,10
+    CONTROL         "... только о&днажды (G)",IDC_CHECK34,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,146,130,10
+    CONTROL         "Звуковое о&формление (S)",IDC_CHECK26,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,118,110,10
+    CONTROL         "Не различать ре&гистр букв (C)",IDC_CHECK27,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,128,115,10
+    CONTROL         "При по&лном совпадении имени (F)",IDC_CHECK21,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,138,130,10
+    CONTROL         "Спр&ятать окно полностью (H)",IDC_CHECK31,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,174,120,10
+    CONTROL         "Спря&тать окно на панель задач (T)",IDC_CHECK20,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,184,135,10
+    CONTROL         "Постоянн&ый значок на панели задач (I)",IDC_CHECK15,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,194,149,10
+    CONTROL         "Распахнуть окно (Z)",IDC_CHECK35,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,204,85,10
+    CONTROL         "На&жать кнопку (B)",IDC_CHECK30,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,215,83,10
+    EDITTEXT        IDC_EDIT25,96,213,55,13,ES_AUTOHSCROLL
+    CONTROL         "Закрыт&ь окно (E)",IDC_CHECK24,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,179,174,76,10
+    CONTROL         "&Удалить процесс (K)",IDC_CHECK25,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,179,184,91,10
+    CONTROL         "Переместить за &экран (O)",IDC_CHECK29,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,179,194,106,10
+    CONTROL         "Удалить зна&чок из лотка (R)",IDC_CHECK33,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,179,204,111,10
+    DEFPUSHBUTTON   "OK",IDOK,230,10,60,14
+    PUSHBUTTON      "Отменить",IDCANCEL,230,25,60,14
+    PUSHBUTTON      "Справка",9,230,45,60,14
+    LTEXT           "",IDC_PROGRAM_ICON,170,76,30,23
+    GROUPBOX        " Спрятать, используя ... ",IDC_STATIC,5,5,205,55
+    GROUPBOX        " Условие ",IDC_STATIC,5,105,290,55
+    LTEXT           "Чтобы задать имя программы, вы можете использовать в этом диалоговом окне технику перетаскивания (drag&&drop).  Просто перетяните программу из Проводника.",
+                    IDC_STATIC,35,235,240,25
+    ICON            IDI_LAMP,IDC_STATIC,5,235,20,20,SS_REALSIZEIMAGE
+    GROUPBOX        " Назначить окну значок ",IDC_STATIC,5,66,205,35
+    GROUPBOX        " Действие ",IDC_STATIC,5,163,290,65
+    LTEXT           "",IDC_TARGET_BITMAP,258,77,25,20
+    LTEXT           "Найти окно:",IDC_STATIC,226,78,25,20
+END
+
+IDD_OPTIONS_DIALOG DIALOGEX 0, 0, 280, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Запус&кать DoHide при старте Windows",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,15,155,10
+    CONTROL         "Не &выводить значок DoHide на панели задач",IDC_CHECK14,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,25,175,10
+    CONTROL         "Прятать &окна из меню DoHide в лоток на панели задач",
+                    IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,35,
+                    220,10
+    CONTROL         "Прятать &свернутые окна ...",IDC_CHECK13,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,45,115,10
+    CONTROL         "на пане&ль задач",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON,130,45,68,10
+    CONTROL         "полность&ю",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,205,
+                    45,56,10
+    CONTROL         "&Постоянные значки в лотке на панели задач",IDC_CHECK15,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,55,190,10
+    CONTROL         "Показывать &значки рабочего стола",IDC_CHECK4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,65,135,10
+    CONTROL         "Показывать &нeвидимые окна",IDC_CHECK6,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,65,115,10
+    CONTROL         "Slider2",IDC_RESPONSE,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,10,95,84,12
+    COMBOBOX        IDC_LANG_COMBO,145,95,125,77,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "... &ярлыкам рабочего стола",IDC_CHECK5,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,125,110,10
+    CONTROL         "... вашим &Документам",IDC_CHECK11,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,135,100,10
+    CONTROL         "... &Избранному Internet",IDC_CHECK12,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,145,100,10
+    CONTROL         "... &Удаленному доступу к сети",IDC_CHECK16,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,155,115,10
+    CONTROL         "... Панели управления",IDC_CHECK17,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,165,95,10
+    CONTROL         "... Принтерам",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,175,65,10
+    EDITTEXT        IDC_PASSWORD1,145,133,55,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD2,205,133,60,12,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "Параметры",IDC_CHECK100,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,145,149,55,10
+    CONTROL         "Завершение DoHide",IDC_CHECK101,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,159,84,10
+    CONTROL         "Показ окон",IDC_CHECK102,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,145,169,55,10
+    CONTROL         "Контекстовое меню",IDC_CHECK103,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,179,86,10
+    RTEXT           "",IDC_TIME,95,95,30,8
+    GROUPBOX        " Параметры  ",IDC_NONE,5,5,270,75
+    GROUPBOX        " Выводить значок для доступа к ",IDC_STATIC,5,115,130,
+                    75
+    GROUPBOX        " Безопасность ",IDC_STATIC,140,115,135,75
+    LTEXT           "Пароль:",IDC_STATIC,145,125,50,8
+    LTEXT           "Еще раз:",IDC_STATIC,205,125,55,8
+    GROUPBOX        " Использовать язык ",IDC_STATIC,140,85,135,26
+    GROUPBOX        " Искать окна каждые ",IDC_STATIC,5,85,129,25
+    CONTROL         "... CPU",IDC_CHECK19,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,83,175,48,10
+END
+
+IDD_HOTKEY_DIALOG DIALOG  0, 0, 280, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST2,15,20,170,135,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    CONTROL         "HotKey1",IDC_HOTKEY1,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,85,160,98,14
+    CONTROL         "&Добавить в меню DoHide",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | BS_RIGHT | WS_TABSTOP,85,177,98,10
+    PUSHBUTTON      "  &Что делает эта          'горячая'                клавиша?",
+                    IDC_BUTTON1,197,20,65,30,BS_CENTER | BS_VCENTER | 
+                    BS_MULTILINE
+    RTEXT           "'Горячая' &клавиша:",IDC_STATIC,10,163,70,8
+    GROUPBOX        " Действие ",IDC_STATIC,5,5,270,185
+    LTEXT           "все действия по уже назначенным 'горячим' клавишам запрещены.",
+                    IDC_STATIC,199,117,70,50
+    ICON            IDI_LAMP,IDC_STATIC,190,100,20,20
+    LTEXT           "Во время редактирования",IDC_STATIC,214,101,58,17
+END
+
+IDD_LOCK_DIALOG DIALOG  0, 0, 280, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,10,20,185,130
+    PUSHBUTTON      "&Добавить",IDC_BTN_ADD,210,20,60,14
+    PUSHBUTTON      "&Изменить",IDC_BTN_EDIT,210,40,60,14
+    PUSHBUTTON      "&Удалить",IDC_BTN_REMOVE,210,135,60,14
+    LTEXT           "Спрятать при запуске:",IDC_STATIC,10,10,90,8
+    GROUPBOX        "",IDC_NONE,10,155,260,4
+    ICON            IDI_LAMP,IDC_STATIC,10,166,20,20
+    LTEXT           "На этой вкладке представлен список заголовков окон (названий EXE-файлов), которые будут автоматически спрятаны при их запуске.",
+                    IDC_STATIC,35,166,200,25
+END
+
+IDD_REGISTER_DIALOG DIALOG  0, 0, 280, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT3,125,115,135,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,125,135,135,14,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "On-line регистрация",IDC_BUTTON2,20,75,90,14
+    PUSHBUTTON      "Как зарегистрировать программу ...",IDC_BUTTON1,125,75,
+                    135,14
+    GROUPBOX        " Регистрация ",IDC_STATIC,10,10,260,175
+    RTEXT           "http://www.uran.net/kva",IDC_HYPERLINK,155,171,105,8,
+                    SS_NOTIFY
+    RTEXT           "Ваше имя:",IDC_STATIC,80,118,43,8
+    RTEXT           "Регистрационный код:",IDC_STATIC,40,138,83,8
+    LTEXT           "Зарегистрируйте вашу копию DoHide!\n\nДля этого отправьте автору регистрационную форму - и вам немедленно будет выслан регистрационный код, разблокирующий DoHide.",
+                    IDC_STATIC,37,25,188,40
+    RTEXT           "mailto:kirienko@geocities.com",IDC_HYPERLINK2,155,160,
+                    105,8,SS_NOTIFY
+    ICON            IDI_LAMP,IDC_STATIC,11,41,20,20,SS_REALSIZEIMAGE
+END
+
+IDD_WELCOME_DIALOG DIALOG  0, 0, 280, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "DoHide позволяет удалять окна программ с экрана (так, что их не видно ни на панели задач, ни по ALT+ TAB), добавлять часто используемые приложения в лоток на панели задач, автоматически прятать запускаемые приложения и многое другое.",
+                    IDC_STATIC,90,95,185,50
+    RTEXT           "mailto:kirienko@geocities.com",IDC_HYPERLINK2,165,165,
+                    108,8,SS_NOTIFY
+    RTEXT           "http://www.uran.net/kva",IDC_HYPERLINK,165,175,108,8,
+                    SS_NOTIFY
+    LTEXT           "",IDC_BITMAP,10,20,70,130
+    LTEXT           "",IDC_BITMAP1,90,20,105,30
+    LTEXT           "Версия 3.3",IDC_STATIC,91,52,54,8
+    CTEXT           "Пожалуйста, не ломайте программу!\n\nПрочитайте файл ЛицензияР и зарегистрируйтесь.",
+                    IDC_DAYSLEFT,205,15,70,50,NOT WS_VISIBLE
+    LTEXT           "Зарегистрировано:   ",IDC_DAYSLEFT2,90,75,180,10,
+                    SS_NOPREFIX
+END
+
+IDD_PROGRAMS_DIALOG DIALOG  0, 0, 280, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,10,20,185,130
+    PUSHBUTTON      "&Добавить",IDC_BTN_ADD,210,20,60,14
+    PUSHBUTTON      "&Изменить",IDC_BTN_EDIT,210,40,60,14,WS_DISABLED
+    PUSHBUTTON      "&Удалить",IDC_BTN_REMOVE,210,135,60,14,WS_DISABLED
+    LTEXT           "Добавить на панель задач:",IDC_STATIC,10,10,180,8
+    GROUPBOX        "",IDC_NONE,10,155,260,4
+    ICON            IDI_LAMP,IDC_STATIC,10,166,20,20
+    LTEXT           "На этой вкладке представлен список программ, значки которых добавляются в лоток на панели задач, что позволяет быстро вызывать эти программы.",
+                    IDC_STATIC,35,166,225,25
+    PUSHBUTTON      "Ввер&х",IDC_BTN_UP,225,75,30,14,WS_DISABLED
+    PUSHBUTTON      "Вни&з",IDC_BTN_DOWN,225,90,30,14,WS_DISABLED
+END
+
+IDD_TRAYNOT_PROGRAMS DIALOG  0, 0, 292, 196
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Поместить в лоток на панели задач"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Чтобы задать имя программы, вы можете использовать в этом диалоговом окне технику перетаскивания (drag&&drop).  Просто перетяните программу из Проводника.",
+                    IDC_STATIC,31,165,214,25
+    EDITTEXT        IDC_EDIT20,70,20,140,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,70,36,140,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Обзор...",ID_BUTTON20,150,54,60,15
+    EDITTEXT        IDC_EDIT22,70,71,140,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT23,70,86,140,15,ES_AUTOHSCROLL
+    CONTROL         "&Запустить при старте Windows",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,70,106,121,10
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,70,127,65,10
+    DEFPUSHBUTTON   "OK",IDOK,225,8,60,14
+    PUSHBUTTON      "Отменить",IDCANCEL,225,25,60,14
+    PUSHBUTTON      "Справка",IDHELP,225,65,60,14
+    RTEXT           "Описание:",IDC_STATIC,17,23,50,10
+    RTEXT           "Путь:",IDC_STATIC,17,38,50,10
+    RTEXT           "Параметры:",IDC_STATIC,12,74,55,10
+    RTEXT           "Папка запуска:",IDC_STATIC,13,90,54,10
+    GROUPBOX        " Свойства ",IDC_STATIC,5,5,215,155
+    ICON            IDI_LAMP,IDC_STATIC,6,165,20,20,SS_REALSIZEIMAGE
+    RTEXT           "Значок:",IDC_STATIC,35,127,32,8
+    LTEXT           "",IDC_PROGRAM_ICON,140,122,30,25
+    CONTROL         "Не добавлять отметку к значку",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,70,145,140,8
+END
+
+IDD_PASSWORD_DIALOG DIALOG  0, 0, 182, 71
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "DoHide     "
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_PASSWORD,45,35,125,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,65,53,50,14
+    PUSHBUTTON      "Отменить",IDCANCEL,120,53,50,14
+    RTEXT           "&Пароль:",IDC_STATIC,5,38,35,8
+    LTEXT           "Доступ к DoHide защищен паролем. Ввведите ниже пароль для получения доступа.",
+                    IDC_STATIC,45,5,130,25
+    ICON            IDI_PROTECTED,IDC_STATIC,10,5,20,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUPMENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Закрыть DoHide",             IDCANCEL
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+    END
+END
+
+IDR_POPUPMENU1 MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Закрыть DoHide",             IDCANCEL
+        MENUITEM SEPARATOR
+        MENUITEM "С&войства ...",               IDC_CONFIG
+        MENUITEM "&Регистрация ...",            ID_REGISTER
+        MENUITEM SEPARATOR
+        MENUITEM "&Что это такое?",             ID_ABOUT
+    END
+END
+
+IDR_POPUPMENU2 MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Запустить",                  ID_RUN_PROGRAM
+        MENUITEM SEPARATOR
+        MENUITEM "С&войства ...",               ID_EDIT_PROGRAM
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_HIDE_BY_RUN, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 261
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_LANG                "окон"
+    IDS_LANG1               "окно"
+    IDS_LANG2               "окна"
+    IDS_HOTKEY1             "Окна: Показать ВСЕ окна"
+    IDS_HOTKEY2             "Окна: Спрятать ВСЕ окна"
+    IDS_HOTKEY3             "Окна: Спрятать ВСЕ окна в лоток на панели задач"
+    IDS_HOTKEY4             "Окна: Спрятать окно полностью"
+    IDS_HOTKEY5             "Окна: Спрятать окно в лоток на панели задач"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PROPERTIES1         "Параметры"
+    IDS_PROPERTIES2         """Горячие"" клавиши"
+    IDS_PROPERTIES3         """Спрятать при запуске"""
+    IDS_PROPERTIES4         "Регистрация"
+    IDS_PROPERTIES5         "Добро пожаловать"
+    IDS_PROPERTIES6         "Программы"
+    IDS_HEADER1             "Заголовок окна / Имя файла"
+    IDS_HEADER2             "Параметры"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HEADER3             "Программы"
+    IDS_HIDDEN_WINDOWS      "DoHide: спрятано %d "
+    IDS_DESKTOP_ICONS       "Значки рабочего стола"
+    IDS_NO_WINDOW           "DoHide: спрятанных окон нет"
+    IDS_REMOVE              "Удалить этот пункт из списка?"
+    IDS_RUN_FROM_TRAY       "Запустить: "
+    IDS_DESKTOP             "Рабочий стол"
+    IDS_RECENT              "Документы"
+    IDS_IEXPLORER           "Избранное Internet"
+    IDS_DIALUP              "Удаленный доступ к сети"
+    IDS_TRANSLATED_BY       "Локализация выполнена: Владимиром Кириенко"
+    IDS_OPFD_1              "Программы~*.exe;*.dll;*.lnk;*.ico~Все файлы (*.*)~*.*~"
+    IDS_OPFD_2              "Программы~*.exe~Все файлы (*.*)~*.*\001"
+    IDS_OPFD_3              "Программы~*.exe;*.com;*.lnk;*.bat;*.cmd~Все файлы (*.*)~*.*~"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CONTROL_PANEL       "Панель управления"
+    IDS_PRINTERS            "Принтеры"
+    IDS_PASSWORD_VERIFY     "Введены разные пароли."
+    IDS_CPU                 "Использование процессора: %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HOTKEY6             "Окна: Спрятать снова спрятанные при старте"
+    IDS_HOTKEY7             "Окна: Свернуть ВСЕ окна"
+    IDS_HOTKEY8             "Окна: Свернуть окно"
+    IDS_HOTKEY9             "Окна: Восстановить ВСЕ окна"
+    IDS_HOTKEY10            "Окна: Распахнуть ВСЕ окна"
+    IDS_HOTKEY11            "Окна: Распахнуть окно"
+    IDS_HOTKEY12            "Окна: Разместить окно поверх всех"
+    IDS_HOTKEY13            "Окна: Развернуть окно по оси Х"
+    IDS_HOTKEY14            "Окна: Развернуть окно по оси Y"
+    IDS_HOTKEY15            "Окна: Переместить окно наверх экрана"
+    IDS_HOTKEY16            "Окна: Переместить окно вниз экрана"
+    IDS_HOTKEY17            "Окна: Переместить окно влево"
+    IDS_HOTKEY18            "Окна: Переместить окно вправо"
+    IDS_HOTKEY19            "Окна: Закрыть ВСЕ окна"
+    IDS_HOTKEY20            "Система: Выйти из системы"
+    IDS_HOTKEY21            "Система: Выключить компьютер"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HOTKEY22            "Система: Быстро выключить компьютер"
+    IDS_HOTKEY23            "Система: Перезагрузить компьютер"
+    IDS_HOTKEY24            "Система: Быстро перезагрузить компьютер"
+    IDS_HOTKEY25            "Система: Удалить процесс"
+    IDS_HOTKEY26            "Система: Запустить экранную заставку"
+    IDS_HOTKEY27            "Система: Панель управления"
+    IDS_HOTKEY28            "Система: Настройка дисплея"
+    IDS_HOTKEY29            "Система: Ярлыки рабочего стола"
+    IDS_HOTKEY30            "Система: Документы"
+    IDS_HOTKEY31            "Система: Избранное Internet"
+    IDS_HOTKEY32            "Система: Удаленный доступ к сети"
+    IDS_HOTKEY33            "Система: Открыть CD-ROM"
+    IDS_HOTKEY34            "Система: Закрыть CD-ROM"
+    IDS_HOTKEY35            "DoHide: Показать/спрятать значок DoHide"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LANGUAGE            " Russian"
+    IDS_LANGUAGE_ID         "1"
+    IDS_LANGUAGE_HELP       "DoHideRu.hlp"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,3,0,1
+ PRODUCTVERSION 3,3,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Developed by Vladimir Kirienko. kirienko@geocities.com  http://www.uran.net/kva"
+            VALUE "CompanyName", "KVA Software, Sevastopol, Ukraine, Vladimir Kirienko"
+            VALUE "FileDescription", "DoHide russian resource library."
+            VALUE "FileVersion", "3, 3, 0, 1"
+            VALUE "InternalName", "DoHideRu"
+            VALUE "LegalCopyright", "Copyright © 1998-2000"
+            VALUE "LegalTrademarks", "KVA Software"
+            VALUE "OriginalFilename", "DoHideRu.lng"
+            VALUE "ProductName", "KVA Software: DoHide"
+            VALUE "ProductVersion", "3, 3, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\\\resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_DOHIDE              ICON                    "res\\dohide.ICO"
+IDI_OPTIONS             ICON                    "res\\options.ico"
+IDI_HOTKEY              ICON                    "res\\hotkey.ico"
+IDI_LOCK                ICON                    "res\\lock.ico"
+IDI_REGISTER            ICON                    "res\\register.ico"
+IDI_PROGRAM             ICON                    "res\\program.ico"
+IDI_LAMP                ICON                    "res\\lamp.ico"
+IDI_PROTECTED           ICON                    "res\\protect.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

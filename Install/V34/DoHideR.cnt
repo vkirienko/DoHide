@@ -1,0 +1,16 @@
+:Base DoHideR.hlp
+2 Что такое DoHide ?=what_is
+1 Обзор
+2 Требования=Requirements
+2 Инсталляция/Деинсталляция=inst
+2 Использование DoHide=using
+2 Параметры командной строки=cmdline
+2 Добавление в группу автозагрузки=ID_START
+2 Удаление из группы автозагрузки=ID_REMOVE
+2 История=history
+1 Регистрация
+2 Лицензионное соглашение=ID_LICENSE
+2 Регистрация=ID_REGISTER
+1 О KVA Software
+2 О KVA Software=about
+2 Благодарности=thank

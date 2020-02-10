@@ -1,0 +1,37 @@
+1. я имел в виду использование правой кнопки мыши на значке
+"свернуть" для минимизации окна в трей, а левой - как обычно. Конечно, в
+DoHide можно назначить горячую клавишу для этого, но ведь это совсем не то.
+Мне кажется, DoHide теряет очень много без этого режима!
+
+А ту программу я всё-таки нашёл, если интересует - называется она RBTray,
+лежит на многих архивах. 
+
+2. It would be nice if you could make your program have an option so 
+that when you hide a window, it registers that window as a service.  
+The reason for that is that then the window does not show up on a CTRL-ALT-DEL.
+
+
+3. It would also be nice if there would be an option (and of course 
+a keyboard shortcut) to unhide the last hidden window and then the 
+next to last and so on.  Another keyboard shortcut option that I would 
+like would be to the options menu.  
+
+4.  в "Hide by Run" > "Hide using..." задавать критерий по способу "и",
+а не только "или": например, задать критерий Caption " - Far" и Class 
+"ConsoleWindowClass" одновременно;
+
+5. навесить hotkey (например, в диалоге редактирования элемента "Hide by Run")
+на показ именно данного окна (точнее, всех окон, ранее скрытых именно
+данным критерием);
+
+6. (это уже менее важно, но все равно полезно) навесить hotkey на скрытие
+именно данного окна (точнее, всех окон, подпадающих под данный критерий).
+
+7. а у меня получается маленький глючок: если я нажимаю десктопный хоткей, 
+то FAR восстанавливает окошко, но DoHide, не зная об этом, продолжает 
+показывать иконку в трее. 
+
+8. И второе немного не по теме скрытия: вместе с dohide у меня в трее
+висит еще прога Qtools(под NT) с ее помощью я меняю уровень звука:
+Alt-, Alt+ и Alt* - Mute. Может эта функция в вашей программе
+заинтересует и других? 

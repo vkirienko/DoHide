@@ -1,0 +1,21 @@
+RestoreSettings.bat Restore DoHide settings
+SaveSettings.bat    Save DoHide settings to DoHide1.reg and DoHide2.reg
+DoHide.cnt          English help contents file
+DoHideR.cnt         Russian help contents file
+File_id.diz         Short version description
+DoHideH.dll         DoHide dynamic library
+DoHide.exe          DoHide executable module
+DoHideEn.hlp        English help file
+DoHideRu.hlp        Russian help file
+DoHideEn.lng        English resource file
+DoHideRu.lng        Russian resource file
+DoHidePo.lng        Portuguese resource file
+Register.html       Registration via the Internet
+Descript.ion        File descriptions
+License.txt         License for use and distribution
+LicenseR.txt        License for former USSR users
+ReadMe.txt          English readme file
+ReadMeR.txt         Russian readme file
+Register.txt        Registration form
+WhatsNew.txt        What is new in this version
+DoHide.url          DoHide home page link

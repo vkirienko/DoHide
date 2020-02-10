@@ -1,0 +1,319 @@
+DoHide v3.4 for Windows 95/NT
+
+Hide windows, take them off the screen/taskbar and ALT+TAB chain
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   DoHide 3.4
+   ~~~~~~~~~~
+	1. Fixed bug several bugs releted to Windows XP.
+
+	2. Added password protection for сontext menues.
+
+
+   DoHide 3.3
+   ~~~~~~~~~~
+	1. Fixed bug when DoHide could not activate screen saver using hotkey.
+
+    2. Added German language support. 
+
+	3. Если окно восстановлено из трея не DoHide, то иконка убирается.
+
+
+   DoHide 3.2
+   ~~~~~~~~~~
+	1. Now you can use first character of menu item for menu navigation.
+
+	2. New option for tray programs - Don't add mark for icon
+       In some configurations adding mark to icon may lead to 
+       shading icon on Windows 95/98.
+
+    3. Added Portuguese language support. 
+
+	4. Fixed bug when DoHide could not show property dialog box.
+
+
+   DoHide 3.1
+   ~~~~~~~~~~
+	1. Now you can protect by password the following actions:
+
+       a) access to DoHide's properties;
+       b) show windows;
+       c) close DoHide. 	 
+	
+	2. New option for 'Hide by Run' list, which allow to:
+		
+       a) maximize window.
+
+    3. New tray icon for easy access to:
+
+       a) Control Panel;
+       b) Printers.
+	
+	4. Now DoHide is invisible in process list in Windows 95/98. 
+
+    5. A few minor bugs are fixed.
+
+
+   DoHide 3.0
+   ~~~~~~~~~~
+    1. Information for registered users:
+
+       DoHide version 3.0 and above are registered with a new registration
+       seal.
+
+       Unfortunately, this also means that old registration codes will
+       not operate with the latest versions of DoHide and thus all codes
+       must be changed. This is a cost-free process for registered users.
+
+       Read License.txt for details. Citizens of ex-USSR countries and
+       organizations, registered in these countries, may also use license
+       provided in LicenseR.txt.
+
+       For updating your registration codes, please send your user name and
+       registration code to 
+
+			vkirienko@yahoo.com
+
+       and your will receive new registration code.	
+
+	2. New options for 'Hide by Run' list:
+		
+       a) delete unnecessary icon from taskbar tray.
+   	      Use 'Delete icon from tray' option in 'Hide by Run' dialog. 	
+          Icon removing under Win2K will be added soon after Win2K release.
+
+          DoHide uses Nick N. Repin's source code for removing tray icon.
+          http://skyscraper.fortunecity.com/gigo/311/winprog.html
+
+       b) hide window only once during Windows or DoHide session.
+
+    3. Now you can use any window in 'Hide by Run' list, not only 
+       top-level application's windows.
+
+    4. New tray icon for easy access to Dial-Up Networking from menu.  
+
+    5. New hotkeys to:
+
+       a) show Dial-Up Networking menu;
+       b) quick shutdown;
+       c) quick reboot;
+       d) maximize all windows.
+
+    6. Now you can temporarily disable specific items in 'Hide by Run'
+       list. 
+
+    7. Now you can sort items in 'Add program to tray' list.
+
+    8. Added truncation for long titles/names in DoHide's menus.
+
+    9. A few bugs are fixed:
+
+       a) an incorrect names in desktop menu, when shortcut has
+          non-OEM name;
+
+       b) DoHide could not start, if you had a window with word 'DoHide' in 
+          its title.
+
+
+   DoHide 2.3
+   ~~~~~~~~~~
+    1. New tray icon for easy access to your Internet Favorites from menu.
+
+    2. New hotkeys to:
+
+       a) show menu with Internet Favorites;
+       b) show/hide DoHide icon in tray.
+
+    3. New options to Hide by Run, which allow to:
+
+       a) make window's icon permanent in tray;
+
+    4. DoHide removes window icon from tray, if window has been closed while
+       it sits on tray.
+
+    5. Fixed problem with freezing Windows 95/98 by using unregistered
+       version.
+
+    6. Fixed problem with freezing Windows 95/98, when you try to kill
+       program by using Ctrl+Alt+Del.
+
+    7. Now shutdown command also turns off the power. The system must support
+       the power-off feature.
+
+    8. Now it's possible to hide minimized window completely, not only to tray.
+
+
+   DoHide 2.2
+   ~~~~~~~~~~
+    1. Now you can hide window using the name of window's class.
+
+    2. New options for Hide by Run, which allow to:
+
+       a) move window outside of the screen;
+       b) press any button in window.
+
+    3. New hotkeys to:
+
+       a) close all windows;
+       b) open CD-ROM;
+       c) close CD-ROM;
+
+    4. DoHide home page has moved to http://www.uran.net/kva
+
+
+   DoHide 2.11
+   ~~~~~~~~~~~
+    1. If window changes its title while it hidden to tray, this new title
+       shows as tooltip for tray icon.
+
+    2. Added new option for Hide by Run, which allows to hide window at first
+       time and after that, if window is minimized.
+
+    3. Fixed error, when DoHide did not delete registry key to run
+       program by Windows start.
+
+    4. New option to set permanent program tray icon.
+
+
+
+   DoHide 2.1
+   ~~~~~~~~~~
+
+    1. New tray icon for easy access to your Desktop shortcuts from menu.
+
+    2. New tray icon for easy access to your Documents.
+
+    3. New hotkeys to:
+
+       a) show menu with desktop shortcuts;
+       b) show menu with your Documents;
+       c) set window "always on top". This hotkey switches window
+          property between "always on top" and normal window mode;
+       d) maximize current window by X or Y axes;
+       e) move current window to the top, bottom, left or right sides of
+          the screen.
+
+    4. During editing of hotkeys all actions by already nominated
+       hotkeys are disabled.
+
+    5. Now you can hide a program from command line. Just run DoHide.exe
+       and pass the Title of the program, that you would like to hide, in
+       command line. For example, to hide Notepad to tray, run DoHide like
+       this:
+           DoHide.exe /T Notepad
+       For options list see help file.
+
+    6. Now you can hide a program over DDE connection to DoHide. Connect to
+       server named 'DoHide' and send string like as in p. 5, only exclude
+       executable name of DoHide. For example, to hide Notepad to tray,
+       send string like this:
+           /T Notepad
+
+    7. Installation archive now include HotKey.reg file. Run this file
+       to setup hotkeys, which author considers convenient for himself.
+
+    8. Information about registration is shown.
+
+    9. Now DoHide shows icon for each window in menu.
+
+   10. Now you can disable showing DoHide icon in tray. In this case to
+       setup options click right mouse button on other icons created
+       by DoHide or run 'DoHide.exe /O'.
+
+   11. If window, which you want automatically hide, can radically changes
+       title depending on situation, you can write that titles together
+       separated by '|'.
+       For example: Receiving|Sending|Closing
+
+   12. Fixed bug with run screen saver in Windows 95.
+
+
+   DoHide 2.0
+   ~~~~~~~~~~
+
+    1. DoHide now is shareware. Read License.txt and Register.txt
+       for details.
+
+       Citizens of ex-USSR countries and organizations, registered in
+       these countries, may also use license, provided in LicenseR.txt.
+
+       Please note that DoHide home page URL and my E-mail address
+       are changed:
+
+           new home page is http://www.geocities.com/SiliconValley/Way/5573
+           new E-mail is kirienko@geocities.com
+
+    2. New graphics user interface.
+
+    3. You can add frequently used applications to the tray for quick access
+       by pressing left mouse button. For application you can set command
+       line parameters, startup folder and icon, which will be shown in the
+       tray.
+
+    4. Now ALL hotkey actions can be added to menu.
+
+    5. New options - all minimized application can be hidden to tray
+       automatically.
+
+    6. You can add DoHide to Windows startup group by setting options.
+
+    7. Fixed problem with windows, which have owner. Removed option "Show
+       owner windows".
+
+    8. Fixed problem, when DoHide could not find window icon and showed
+       default icon.
+
+    9. Excluded situation, when two or more copies DoHide can work
+       at the same time.
+
+   10. Now you can set icon for "Hide by Run" windows, which will be
+       shown in tray.
+
+
+   DoHide 1.5
+   ~~~~~~~~~~
+
+    1. New options for "Hide by Run":
+
+         a) 'E' - close window;
+         b) 'K' - terminate process, which opened by window;
+         c) 'B' - produce sound after action with window;
+         d) 'A' - hide window always, if window minimized.
+
+    2. Now you can select the amount of time between checking for any
+       new applications, which have been hidden.
+
+    3. Now if hidden application receive messages WM_ACTIVATE, WM_ACTIVATEAPP
+       or maximize, application window will be shown. It's useful, for example,
+       when hidden Outlook Express receive new mail and show small icon in
+       notification tray. You can press this icon and show Outlook Express
+       window even if Outlook window was hidden by DoHide.
+
+    4. You can use drag&drop to add files to "Hide by Run" edit field.
+
+
+   DoHide 1.4
+   ~~~~~~~~~~
+
+    1. Russian help is added.
+
+    2. New "General" option "Hide windows from menu to toolbar"
+       allows to hide application to notification tray from DoHide menu.
+
+    3. Hot keys options to:
+
+         a) Run screen saver;
+         b) Logoff;
+         c) Shutdown;
+         d) Reboot;
+         e) Terminate process.
+
+    4. Options from p.3 can be addeed in the menu.
+
+    5. New options for "Hide by Run":
+
+         a) 'F' - window will be hidden, when title fully identical;
+         b) 'M' - window will be hidden once, if it minimized;
+         c) 'С' - case insensitive title compare.
+
+    6. Fixed a few bugs.

@@ -1,0 +1,555 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\\resource.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,1,0,1
+ PRODUCTVERSION 3,1,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Developed by Vladimir Kirienko. kirienko@geocities.com  http://www.uran.net/kva\0"
+            VALUE "CompanyName", "KVA Software, Sevastopol, Ukraine, Vladimir Kirienko\0"
+            VALUE "FileDescription", "DoHide english resource library.\0"
+            VALUE "FileVersion", "3, 1, 0, 1\0"
+            VALUE "InternalName", "DoHideEn\0"
+            VALUE "LegalCopyright", "Copyright © 1998-2000\0"
+            VALUE "LegalTrademarks", "KVA Software\0"
+            VALUE "OriginalFilename", "DoHideEn.lng\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "KVA Software: DoHide\0"
+            VALUE "ProductVersion", "3, 1, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\\\resource.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_DOHIDE              ICON    DISCARDABLE     "res\\dohide.ICO"
+IDI_OPTIONS             ICON    DISCARDABLE     "res\\options.ico"
+IDI_HOTKEY              ICON    DISCARDABLE     "res\\hotkey.ico"
+IDI_LOCK                ICON    DISCARDABLE     "res\\lock.ico"
+IDI_REGISTER            ICON    DISCARDABLE     "res\\register.ico"
+IDI_PROGRAM             ICON    DISCARDABLE     "res\\program.ico"
+IDI_LAMP                ICON    DISCARDABLE     "res\\lamp.ico"
+IDI_PROTECTED           ICON    DISCARDABLE     "res\\protect.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS_DIALOG DIALOG DISCARDABLE  0, 0, 280, 193
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Rodar DoHide ao $inicializar Windows",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,15,140,10
+    CONTROL         "Nã&o mostrar icone do DoHide",IDC_CHECK14,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,25,120,10
+    CONTROL         "Minimizar janelas para a bandeja de tarefas",IDC_CHECK8,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,35,165,10
+    CONTROL         "&Escoder completamente as janelas minimizadas...",
+                    IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,45,
+                    145,10
+    CONTROL         "to ba&ndeja",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,162,
+                    45,46,10
+    CONTROL         "comp&letamente",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    209,45,56,10
+    CONTROL         "Usar &icones permanentemente na bandeja",IDC_CHECK15,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,55,180,10
+    CONTROL         "Mostra lista de &icones do desktop",IDC_CHECK4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,65,125,10
+    CONTROL         "Lista &janelas invisiveis do windows",IDC_CHECK6,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,65,120,10
+    CONTROL         "Slider2",IDC_RESPONSE,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,10,95,84,12
+    COMBOBOX        IDC_LANG_COMBO,145,95,120,72,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "... &Atalhos do Desktop",IDC_CHECK5,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,125,120,8
+    CONTROL         "... Seus &Documentos",IDC_CHECK11,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,135,120,10
+    CONTROL         "... Seus &Favoritos",IDC_CHECK12,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,146,120,10
+    CONTROL         "... Dial-Up &Networking",IDC_CHECK16,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,156,120,10
+    CONTROL         "... Control Panel",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,166,120,10
+    CONTROL         "... Printers",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,176,120,10
+    EDITTEXT        IDC_PASSWORD1,145,133,55,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD2,205,133,60,12,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "Options",IDC_CHECK100,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,145,149,120,10
+    CONTROL         "Close DoHide",IDC_CHECK101,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,145,159,120,10
+    CONTROL         "Show window",IDC_CHECK102,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,145,169,125,10
+    CONTROL         "Context menu",IDC_CHECK103,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,145,179,59,10
+    RTEXT           "",IDC_TIME,95,95,29,8
+    GROUPBOX        " Geral ",IDC_NONE,5,5,265,75
+    GROUPBOX        " Não mostra ícone na bandeja de tarefas para...",
+                    IDC_STATIC,5,115,130,75
+    GROUPBOX        " Língua do usuário ",IDC_STATIC,140,85,130,25
+    GROUPBOX        " Scan time ",IDC_STATIC,5,85,130,25
+    GROUPBOX        " Security ",IDC_STATIC,140,115,135,75
+    LTEXT           "Password:",IDC_STATIC,145,125,50,8
+    LTEXT           "Verify password:",IDC_STATIC,205,125,55,8
+END
+
+IDD_REGISTER_DIALOG DIALOG DISCARDABLE  0, 0, 280, 193
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT3,125,110,135,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,125,130,135,14,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "Registro On-line",IDC_BUTTON2,20,75,80,14
+    PUSHBUTTON      "Como registrar o programa...",IDC_BUTTON1,160,75,100,14
+    RTEXT           "mailto:kirienko@geocities.com",IDC_HYPERLINK2,150,160,
+                    110,8,SS_NOTIFY
+    GROUPBOX        " Registro ",IDC_STATIC,10,10,260,175
+    RTEXT           "http://www.uran.net/kva",IDC_HYPERLINK,150,171,110,8,
+                    SS_NOTIFY
+    RTEXT           "Seu nome:",IDC_STATIC,80,113,43,8
+    RTEXT           "Codigo de registro:",IDC_STATIC,60,134,63,8
+    LTEXT           "Por favor, registre sua copia de DoHide!\n\nEnvie o pagamento e o formulário de registro para o autor, and voçe irá receber seu chave registro pessoal para desbloquear sua copia de DoHide.",
+                    IDC_STATIC,37,25,223,40
+    ICON            IDI_LAMP,IDC_STATIC,11,42,20,20,SS_REALSIZEIMAGE
+END
+
+IDD_WELCOME_DIALOG DIALOG DISCARDABLE  0, 0, 280, 193
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "DoHide permite que você esconda qualquer janela, barra de tarefas e seleção do comando ALT+TAB. Também esconde automaticamente as janelas na inicialização.",
+                    IDC_STATIC,90,85,175,35
+    LTEXT           "Você pode usar atalhos para esconder, mostrar e executar outras nas janelas abertas, e rapidamente acessar seus atalhos e documentos na área de trabalho.",
+                    IDC_STATIC,90,120,175,35
+    RTEXT           "mailto:kirienko@geocities.com",IDC_HYPERLINK2,165,160,
+                    108,8,SS_NOTIFY
+    RTEXT           "http://www.uran.net/kva",IDC_HYPERLINK,165,171,108,8,
+                    SS_NOTIFY
+    LTEXT           "",IDC_BITMAP,10,20,70,130
+    LTEXT           "",IDC_BITMAP1,90,20,105,30
+    LTEXT           "Versão 3.3",IDC_STATIC,91,52,49,8
+    CTEXT           "Por favor, registre este programa, se você quiser usá-lo depois dos\n30 dias\ndo período de experiência.",
+                    IDC_DAYSLEFT,205,15,70,40,NOT WS_VISIBLE
+    LTEXT           "Registrado para:   ",IDC_DAYSLEFT2,90,65,180,10,
+                    SS_NOPREFIX
+END
+
+IDD_PROGRAMS_DIALOG DIALOG DISCARDABLE  0, 0, 280, 193
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,10,20,185,130
+    PUSHBUTTON      "&Adicionar",IDC_BTN_ADD,210,20,60,14
+    PUSHBUTTON      "&Editar",IDC_BTN_EDIT,210,40,60,14,WS_DISABLED
+    PUSHBUTTON      "&Remover",IDC_BTN_REMOVE,210,135,60,14,WS_DISABLED
+    LTEXT           "Adicionar o programa na bandeja de tarefas:",IDC_STATIC,
+                    10,10,180,8
+    GROUPBOX        "",IDC_NONE,10,155,260,4
+    ICON            IDI_LAMP,IDC_STATIC,20,166,20,20
+    LTEXT           "Esta página lista todas as aplicações, cujos icones devem ser adicionados na barra de tarefas para rápida inicialização. Use Adicionar, Editar and Remover botões para administrar as listas.",
+                    IDC_STATIC,45,166,220,25
+    PUSHBUTTON      "&Up",IDC_BTN_UP,225,80,30,14,WS_DISABLED
+    PUSHBUTTON      "&Down",IDC_BTN_DOWN,225,95,30,14,WS_DISABLED
+END
+
+IDD_HIDE_BY_RUN DIALOG DISCARDABLE  0, 0, 297, 261
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION """Esconder ao Rodar"""
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT20,75,14,125,12,ES_AUTOHSCROLL
+    CONTROL         "Sub&título",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,10,17,55,10
+    EDITTEXT        IDC_EDIT24,75,28,125,12,ES_AUTOHSCROLL
+    CONTROL         "C&lasse",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,10,31,60,10
+    EDITTEXT        IDC_EDIT21,95,43,55,12,ES_AUTOHSCROLL
+    CONTROL         "Nome do arquivo E&XE",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,10,45,85,10
+    PUSHBUTTON      "Na&vegar...",IDC_BUTTON20,155,43,45,14
+    EDITTEXT        IDC_EDIT3,15,77,60,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Nav&egar",IDC_BUTTON1,80,77,39,14
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,125,80,40,10
+    CONTROL         "... quando a janela estiver &minimizada (M)",
+                    IDC_CHECK22,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,115,
+                    145,10
+    CONTROL         "... &sempre, quando as janelas estiverem minimizadas (A)",
+                    IDC_CHECK23,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,125,
+                    145,10
+    CONTROL         "... E& quando as janelas estiverem minimizadas (N)",
+                    IDC_CHECK28,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,135,
+                    145,10
+    CONTROL         "... Som&ente a primeira vez (G)",IDC_CHECK34,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,145,135,10
+    CONTROL         "&Som depois de alguma ação (S)",IDC_CHECK26,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,160,115,120,10
+    CONTROL         "Coin&cidir maiúsculas e minúsculas (C)",IDC_CHECK27,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,160,126,125,10
+    CONTROL         "Quan&do o título for totalmente idêntico (F)",
+                    IDC_CHECK21,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,160,
+                    136,125,10
+    CONTROL         "&Esconder a janela totalmente (H)",IDC_CHECK31,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,175,140,10
+    CONTROL         "Esconder a janela para a barra de tarefas &tray (T)",
+                    IDC_CHECK20,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,185,
+                    140,10
+    CONTROL         "Icone permanentemente na bandeja (I)",IDC_CHECK15,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,195,125,10
+    CONTROL         "Maximize window (Z)",IDC_CHECK35,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,205,90,10
+    CONTROL         "Pressione o&botão (B)",IDC_CHECK30,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,217,80,10
+    EDITTEXT        IDC_EDIT25,92,216,55,12,ES_AUTOHSCROLL
+    CONTROL         "Fec&har a Janela  (E)",IDC_CHECK24,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,160,173,100,10
+    CONTROL         "Terminar o pr&ograma (K)",IDC_CHECK25,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,160,183,95,10
+    CONTROL         "Mo&ver a janela para  fora da tela (O)",IDC_CHECK29,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,160,193,125,10
+    CONTROL         "&Apagar ícone da bandeja (R)",IDC_CHECK33,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,160,203,125,10
+    DEFPUSHBUTTON   "OK",IDOK,225,10,60,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,225,25,60,14
+    PUSHBUTTON      "Ajuda",9,225,45,60,14
+    GROUPBOX        " Esconder usando ... ",IDC_STATIC,5,5,205,55
+    GROUPBOX        " Condição ",IDC_STATIC,5,105,285,55
+    LTEXT           "Para salvar a digitação, você pode arrastar e soltar arquivos nesta caixa a partir do Windows Explorer.",
+                    IDC_STATIC,35,235,250,21
+    ICON            IDI_LAMP,IDC_STATIC,5,235,20,20,SS_REALSIZEIMAGE
+    LTEXT           "",IDC_PROGRAM_ICON,170,70,31,25
+    GROUPBOX        " Configura o ícone do arquivo ",IDC_STATIC,5,65,205,35
+    GROUPBOX        " Ação ",IDC_STATIC,5,163,285,67
+    LTEXT           "",IDC_TARGET_BITMAP,258,76,25,20
+    LTEXT           "Encontrar janela:",IDC_STATIC,226,78,25,20
+END
+
+IDD_TRAYNOT_PROGRAMS DIALOG DISCARDABLE  0, 0, 292, 191
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Adicionar a bandeja"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT20,70,20,140,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,70,36,140,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Navegar...",ID_BUTTON20,150,54,60,15
+    EDITTEXT        IDC_EDIT22,70,71,140,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT23,70,86,140,15,ES_AUTOHSCROLL
+    CONTROL         "&Rode programa a partir da inicialização",IDC_CHECK1,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,70,106,140,10
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,70,127,65,10
+    DEFPUSHBUTTON   "OK",IDOK,225,8,60,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,225,25,60,14
+    PUSHBUTTON      "Ajuda",IDHELP,225,65,60,14
+    RTEXT           "Descrição:",IDC_STATIC,17,23,50,10
+    RTEXT           "Caminho:",IDC_STATIC,17,38,50,10
+    RTEXT           "Parâmetros:",IDC_STATIC,12,74,55,10
+    RTEXT           "começar em:",IDC_STATIC,10,90,56,10
+    GROUPBOX        " Propriedades ",IDC_STATIC,5,5,215,155
+    ICON            IDI_LAMP,IDC_STATIC,10,165,20,20,SS_REALSIZEIMAGE
+    LTEXT           " Para salvar a digitação, você pode arrastar e soltar arquivos nesta caixa a partir do Windows Explorer.",
+                    IDC_STATIC,35,165,185,21
+    RTEXT           "Icone:",IDC_STATIC,35,127,32,8
+    LTEXT           "",IDC_PROGRAM_ICON,140,122,30,25
+    CONTROL         "Don't add mark to icon",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,70,145,140,8
+END
+
+IDD_HOTKEY_DIALOG DIALOG DISCARDABLE  0, 0, 280, 193
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST2,15,20,170,135,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    CONTROL         "HotKey1",IDC_HOTKEY1,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,79,160,105,14
+    CONTROL         "&Adiciona ao menu do DoHide",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,80,177,105,10
+    PUSHBUTTON      "O que esta hotkey faz& ?",IDC_BUTTON1,197,20,65,25,
+                    BS_CENTER | BS_VCENTER | BS_MULTILINE
+    RTEXT           "&Hotkey:",IDC_STATIC,25,163,50,8
+    GROUPBOX        " Ação ",IDC_STATIC,5,5,270,185
+    LTEXT           "Hotkeys já denominadas estão desabilitadas.",IDC_STATIC,
+                    200,122,61,30
+    ICON            IDI_LAMP,IDC_STATIC,190,105,20,20
+    LTEXT           "Editar todas as ações no",IDC_STATIC,216,106,49,15
+END
+
+IDD_LOCK_DIALOG DIALOG DISCARDABLE  0, 0, 280, 193
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,10,20,185,130
+    PUSHBUTTON      "&Adicionar",IDC_BTN_ADD,210,20,60,14
+    PUSHBUTTON      "&Edit",IDC_BTN_EDIT,210,40,60,14
+    PUSHBUTTON      "&Remover",IDC_BTN_REMOVE,210,135,60,14
+    LTEXT           "Esconder ao rodar:",IDC_STATIC,10,10,90,8
+    GROUPBOX        "",IDC_NONE,10,155,260,4
+    ICON            IDI_LAMP,IDC_STATIC,20,166,20,20
+    LTEXT           "Esta página ,listad todos os nomes das janelas ou nomes dos arquivos executáveis das aplicações que podem ser oculatos ao rodar. Use os botões Add, Edit, and Remove para administrar a lista.",
+                    IDC_STATIC,45,166,225,25
+END
+
+IDD_PASSWORD_DIALOG DIALOG DISCARDABLE  0, 0, 182, 71
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DoHide     "
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_PASSWORD,45,35,125,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,65,53,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,120,53,50,14
+    RTEXT           "&Password:",IDC_STATIC,5,38,35,8
+    LTEXT           "Access has been password protected. Enter password below to gain access.",
+                    IDC_STATIC,45,5,125,20
+    ICON            IDI_PROTECTED,IDC_STATIC,10,5,20,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUPMENU MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Fecha o DoHide",             IDCANCEL
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+    END
+END
+
+IDR_POPUPMENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Fecha o DoHide",             IDCANCEL
+        MENUITEM SEPARATOR
+        MENUITEM "&Propriedades ...",           IDC_CONFIG
+        MENUITEM "&Registrar ...",              ID_REGISTER
+        MENUITEM SEPARATOR
+        MENUITEM "&O que é isto?",              ID_ABOUT
+    END
+END
+
+IDR_POPUPMENU2 MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Roda aplicação",             ID_RUN_PROGRAM
+        MENUITEM SEPARATOR
+        MENUITEM "&Propriedades ...",           ID_EDIT_PROGRAM
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROPERTIES1         "Opções"
+    IDS_PROPERTIES2         "Hotkeys"
+    IDS_PROPERTIES3         """Esconder ao Rodar"""
+    IDS_PROPERTIES4         "Registrar"
+    IDS_PROPERTIES5         "Boas vindas"
+    IDS_PROPERTIES6         "Adicionar programa a bandeja"
+    IDS_HEADER1             "Título da janela / Nome do Arquivo"
+    IDS_HEADER2             "Parametros"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HEADER3             "Programas"
+    IDS_HIDDEN_WINDOWS      "DoHide: %d janelas ocultas"
+    IDS_DESKTOP_ICONS       "Icones do Desktop "
+    IDS_NO_WINDOW           "DoHide: sem janelas ocultas"
+    IDS_REMOVE              "Tem certeza eu deseja remover o item ?"
+    IDS_RUN_FROM_TRAY       "Rodar: "
+    IDS_DESKTOP             "Desktop"
+    IDS_RECENT              "Docs Recentes"
+    IDS_IEXPLORER           "Favoritos"
+    IDS_DIALUP              "Dial-Up Networking"
+    IDS_TRANSLATED_BY       "Localizado by: Carlos Augusto Di Pietro Barros Bella"
+    IDS_OPFD_1              "Programas~*.exe;*.dll;*.lnk;*.ico~todos arquivos (*.*)~*.*~"
+    IDS_OPFD_2              "Programs~*.exe~All files (*.*)~*.*~"
+    IDS_OPFD_3              "Programs~*.exe;*.com;*.lnk;*.bat;*.cmd~todos arquivos (*.*)~*.*~"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CONTROL_PANEL       "Control Panel"
+    IDS_PRINTERS            "Printers"
+    IDS_PASSWORD_VERIFY     "Passwords does not match."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HOTKEY1             "Window: Mostra todas as janelas"
+    IDS_HOTKEY2             "Window: Oculta todas as janelas"
+    IDS_HOTKEY3             "Window: Oculta todas as janelas para a bandeja"
+    IDS_HOTKEY4             "Window: Oculta a janela totalmente"
+    IDS_HOTKEY5             "Window: Oculta a janela na bandeja"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HOTKEY6             "Window: Oculta novamente a janela,oculta ao rodar"
+    IDS_HOTKEY7             "Window: Miniza todas as janelas"
+    IDS_HOTKEY8             "Window: Minimiza a janela"
+    IDS_HOTKEY9             "Window: Restoralra todas as janelas"
+    IDS_HOTKEY10            "Window: Maximiza todas as Janelas"
+    IDS_HOTKEY11            "Window: Maximiza a janela"
+    IDS_HOTKEY12            "Window: Coloca a janela da forma mais alta"
+    IDS_HOTKEY13            "Window: Maximiza a janela no sentido do eixo X"
+    IDS_HOTKEY14            "Window: Maximiza a janela no sentido do eixo Y"
+    IDS_HOTKEY15            "Window: Move a janela para o alto"
+    IDS_HOTKEY16            "Window: Move a janela para baixo"
+    IDS_HOTKEY17            "Window: Move a janela para a esquerda"
+    IDS_HOTKEY18            "Window: Move a janela para direita "
+    IDS_HOTKEY19            "Window: Fecha todas as janelas"
+    IDS_HOTKEY20            "System: Executa o Logoff do sistema"
+    IDS_HOTKEY21            "System: Executa o Shutdown do sistema"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HOTKEY22            "System: Desliga o micro rapidamente"
+    IDS_HOTKEY23            "System: Faz um Reboot"
+    IDS_HOTKEY24            "System: Executa um rapidamente o reboot"
+    IDS_HOTKEY25            "System: Termina o programa"
+    IDS_HOTKEY26            "System: Roda a proteção de tela"
+    IDS_HOTKEY27            "System: Mostra o Painel de Controle"
+    IDS_HOTKEY28            "System: Mostra as propriedades de vídeo"
+    IDS_HOTKEY29            "System: Atalhos do Desktop"
+    IDS_HOTKEY30            "System: Documentos"
+    IDS_HOTKEY31            "System: Favoritos"
+    IDS_HOTKEY32            "System: Dial-Up Networking"
+    IDS_HOTKEY33            "System: Abre CD-ROM"
+    IDS_HOTKEY34            "System: Fecha CD-ROM"
+    IDS_HOTKEY35            "DoHide: Mostra/Oculta o ícone do DoHide"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LANGUAGE            " Portuguese"
+    IDS_LANGUAGE_ID         "2"
+    IDS_LANGUAGE_HELP       "DoHidePo.hlp"
+END
+
+#endif    // Portuguese (Brazil) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
